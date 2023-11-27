@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex To RGB</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h2>Hexadecimal To RGB</h2>
+    <p>Enter the Hexidecimal Value below: </p>
+    <!-- <input type="text" id="hex" placeholder="Enter Hex Here Eg. #ff33ff">
+    <button type="button" id="convert">Convert</button>
+    <br><br>
+    <input type="text" id="rgb" placeholder="RGB Values Display"> -->
+
+    <div class="container-fluid">
+        <form class="display">
+            <label for="hex">Hexadecimal Code: </label>
+            <div>
+                <input type="text" id="hex" name="hex" placeholder="Enter Hex Here Eg. #ff33ff">
+            </div>
+            <label for="rgb">RGB Code: </label>
+            <div>
+                <input type="text" id="rgb" name="rgb" placeholder="RGB Values Display" disabled>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+    </div>
+
+    <script src="/js/hexToRGB.js"></script>
+</body>
+</html>
